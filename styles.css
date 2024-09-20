@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    color: black;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2929e6;
+    text-decoration: none;
+}
+
+header {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 10%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.35s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,163 ,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.35s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,163 ,169,0.8)
+}
+
+aside {
+    width: 30%;
+    max-width: 275px;
+    min-width: 100px;
+    float: right;
+    background-color: #eee;
+    border: #777 solid 2px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    align-self: auto;
+    }
+
+wrapper-main {
+    width: 900px;
+    margin: o auto;
+}
+
+body{
+    font-size: 20px;
+    background-color: tan;
+}
+
+table {
+    width: 30%;
+}
+
+th {
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+}
+
+footer {
+    padding: 50px;
+}
+
+.img {
+float: left;
+padding-top: 20px;
+padding-right: 10px;
+}
+
+.text {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+#sources {
+    float: bottom;
+    color: whitesmoke;
+}
+
+#ContactForm {
+    position: absolute;
+    top: 200px;
+    left: 50%
+    ;
+    transform: translate(-50%, 0);
+    }
+    
+    #ContactForm * {
+    display: flex;
+    margin: 0.5rem;
+    }
+    
