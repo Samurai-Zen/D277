@@ -68,6 +68,7 @@ aside {
     margin-left: 10px;
     margin-bottom: 10px;
     align-self: auto;
+    list-style-position: inside;
     }
 
 wrapper-main {
